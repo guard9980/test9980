@@ -1,67 +1,267 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="/favicon.ico">
-
-    <title>Отправка формы на почту </title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>
-    	form {
-    		background-color: #f9f9f9;
-    		padding: 20px;
-    		margin: 20px;
-    	}
-    </style>
-  </head>
-
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style2.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			
+			<div class="modal-body">
+				<div class="tor  text-center">
+                    <a href="#" class="text-decoration-none text-dark" type="button" onclick="xhrSimulate()">Why Dock</a>
+                  
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="tor text-center">
+        
+                    <a href="#" class="text-decoration-none text-dark" type="button" onclick="xhrSimulate()">Solutions</a>
+                    
+				</div>
+			</div>
+            <div class="modal-body">
+				<div class="tor text-center">
+                   
+                    <a href="#" class="text-decoration-none text-dark" type="button" onclick="xhrSimulate()">Templates</a>
+                   
+				</div>
+			</div>
+            <div class="modal-body">
+				<div class="tor text-center">
+                   
+                    <a href="#" class="text-decoration-none text-dark" type="button" onclick="xhrSimulate()">Library</a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn d-grid gap-2 col-6 btn-secondary" data-bs-dismiss="modal">Close</button> 	
+			</div>
+		  </div>
+		</div>
+	  </div>
+<div class="section mb-5">
     <div class="container">
+        <div class="row align-items-center justify-content-between a1 ">
+            <div class="d-flex col-8 justify-content-around">
+                <img src="img/loho.png" class="" alt="">
+                <a href="#" class="text-decoration-none text-dark dis" type="button" >Why Dock</a>
+                <a href="#" class="text-decoration-none text-dark dis" type="button" >Solutions</a>
+                <a href="#" class="text-decoration-none text-dark dis" type="button" >Templates</a>
+                <a href="#" class="text-decoration-none text-dark dis" type="button" >Library</a>
+            </div>
+            <div class="align-items-center d-flex col-3 justify-content-around ms-auto">
+                <div class="a4">
+                    <button class="hamburger" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal22" data-bs-whatever="@mdo">
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+                
+                <a href="#" type="button" class=" text-decoration-none text-dark dis">Login</a>
+                <a href="#" type="button" class="btn2 text-decoration-none text-dark dis">Sign up</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section2 mb-5">
+    <div class="container">
+        <div class="row d-flex row-cols-2 align-items-center">
+            <div class="col-md-12 col-xl-6 text-center">
+                <div class="display-5 mb-5">The new way to manage external relationships</div>
+                <div class="text mb-5">Create shared spaces with <br>prospects and customers</div>
+                <button type="button" class="btn btn-primary">Get started</button>
+            </div>
+            <div class="col-md-12 col-xl-6">
+                <img src="img/photo1.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section3 mb-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <div class="display-4 mb-5">Transform the customer experience from <br>demo to onboarding and beyond</div>
+                <div class="h5">Personalized spaces that make you look professional.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 cont rounded">
+                <div class="row align-items-center justify-content-around con mt-5">
+                    <div class="col-md-12 col-xl-4">
+                        <div class="text-white h4 align-self-start mb-5">Clients always know where to go when they need something</div>
+                        <div class="text-white align-self-center mb-5">One destination that hosts all of your links, pdfs, meeting agendas, deliverables, project timelines, proposals, and more.</div>
+                        <div class="text-white align-self-center mb-5">Embed your favorite software from Figma to Google Slides to Vimeo.</div>
+                        <img src="img/photo2.png" class="align-self-end" alt="">
+                    </div>
+                    <div class="col-md-6 col-xl-6 mt-5">
+                        <img src="img/photo3.jpg" class="img-fluid border border-primary" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section4 mb-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-md-12 col-xl-8">
+                <img src="img/photo4.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="text h5">Navigate complex deals and onboard customers</div>
+                <div class="text">Stop using that spreadsheet. Instead, build a collaborative mutual action plan with customers - share status, align due dates, assign tasks, leave comments and upload files.</div> 
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section5 mb-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-md-12 col-xl-6 text-center">
+                <div class="text h3">Personalization at scale.</div>
+                <div class="text mb-5">Create branded spaces with custom content.</div>
+                <img src="img/photo5.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 text-center">
+                <div class="text h3">Share feedback & move projects along.</div>
+                <div class="text mb-5">Customers comment on what you’re working on and share key resources with file uploads.</div>
+                <img src="img/photo6.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section6 mb-5">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <div class="display-4 mb-5">Uplevel how Sales and Customer teams work</div>
+                <div class="h5">Dock helps leadership build a repeatable sales and customer success process.</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 cont2 rounded">
+                <div class="row align-items-center justify-content-around con mt-5">
+                    <div class="col-md-12 col-xl-6">
+                        <div class=" text-white display-4 mb-5">Understand what<br>content performs</div>
+                        <div class=" text-white h5">Get insight into when clients view the shared space and what they clicked on.</div>
+                    </div>
+                    <div class="col-md-8 col-xl-4">
+                        <img src="img/photo7.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section7 mb-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-around">
+            <div class="col-md-12 col-xl-6 text-center">
+                <div class="text h3">Save Time.</div>
+                <div class="text mb-5">Duplicate work from project to project, so you’re <br>not starting from scratch every time.</div>
+                <img src="img/photo8.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+            <div class="col-md-12 col-xl-6 text-center">
+                <div class="text h3">Move the relationship forward.</div>
+                <div class="text mb-5">Notifications give visibility into how the project is moving along.</div>
+                <img src="img/photo9.png" class="img-fluid mx-auto d-block" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section8 mb-5">
+    <div class="container">
+        <div class="row row-cols-1 justify-content-around">
+            <div class="col col-xs-12 col-sm-12 col-md-8 col-xl-2">
+                <div class="text h3">Discover how Sales and Customer teams use Dock everyday</div>
+                <div class="text h3">Dock helps companies across the customer lifecycle.</div>
+            </div>
+            <div class="col col-xs-12 col-sm-12 col-md-8 col-xl-4 rounded boxl text-white mb-5">
+                <div class="text mb-4">Sales</div>
+                <div class="h5 mb-5">Transform the <br>sales experience</div>
+                <div class="h2 mb-4">Dock makes it easy for prospects to buy and helps sales teams build a repeatable process.</div>
+                <a href="#" class=" h4 text-white text-decoration-none">Learn more →</a>
+            </div>
+            <div class="col col-xs-12 col-sm-12 col-md-8 col-xl-4 rounded boxl text-white mb-5">
+                <div class="text mb-4">Customer Success</div>
+                <div class="h5 mb-5">Build strong relationships<br> with customerssales</div>
+                <div class="h2 mb-4">Dock helps companies onboard customers and manage ongoing relationships.</div>
+                <a href="#" class=" h4 text-white text-decoration-none">Learn more →</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section9 mb-5">
+    <div class="container-md">
+        <div class="row mb-5">
+            <div class="col-12 text-center">
+                <div class="text h4">Explore Dock templates</div>
+                <div class="text">Explore templates for sales, customer success, and agencies. <br>Customize any template and share with clients.</div>
+                <a href="#" class="text-dark text-decoration-none">Explore templates →</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 g-4">
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph1.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Demo Follow Up</div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph2.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Enterprise Sales</div>                
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph3.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Design Proposal</div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph4.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Website Proposal</div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph5.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Brand Design Project</div>
+            </div>
+            <div class="col col-sm-12 col-md-6 col-xl-4 text-center">
+                <img src="img/ph6.png" class="mx-auto d-block" alt="">
+                <div class="text">Sales</div>
+                <div class="text">Implementation Plan</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section10">
+    <div class="container">
+        <div class="row cont rounded">
+            <div class="col-12 text-center align-items-center a2 mt-5 text-white">
+                <div class="text h2 mt-5">Get started with Dock</div>
+                <a href="#" type="button" class="btn btn-lg btn-light mt-5">Get Started</a>
+            </div>
+        </div>
+    </div>
+</div>
 
-      <div class="row">
-      	<div class="col-sm-4">
-      		<form action="9/mail.php" method="POST">
-      			<legend>Заголовок формы</legend>
-
-      			<div class="form-group">
-      				<label for="">Введите ваше имя</label>
-      				<input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
-      			</div>
-      		
-      			<div class="form-group">
-      				<label for="">Введите номер телефона</label>
-      				<input type="text" class="form-control" id="" name="user_phone" placeholder="+7 (999) 99 99 999">
-      			</div>
-      		
-      			<div class="form-group">
-      				<label for="">Введите email</label>
-      				<input type="text" class="form-control" id="" name="user_email" placeholder="mail@mail.ru">
-      			</div>
-      		
-      			<button type="submit" class="btn btn-primary">Отправить форму</button>
-      		</form>
-      	</div><!-- .col-sm-4 -->
-      </div> <!-- .row -->
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/5a7445c7bc.js" crossorigin="anonymous"></script>
+<script  src="js/indexJS.js"></script>
+<script src="https://kit.fontawesome.com/5a7445c7bc.js" crossorigin="anonymous"></script>
+</body>
 </html>
-	

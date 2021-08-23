@@ -1,0 +1,54 @@
+.a1{
+    height: 100px;
+}
+.btn2{
+    background-color: #408cff41;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.section3{
+    height: 1000px;
+}
+.cont{
+    padding: 40px 40px;
+    background-color: #4058FF;
+    height: 600px;
+}
+.section6{
+    height: 1000px;
+}
+.cont2{
+    padding: 40px 40px;
+    background-color: #121722;
+    height: 600px;
+}
+.boxl{
+    height: 430px;
+    background: #4058FF;
+    padding: 40px;
+}
+.section10 .cont{
+    height: 350px;
+}
+.section10{
+    height: 500px;
+}
+.a4{
+    visibility: hidden;
+    display: none;
+}
+@media (max-width: 767px) {
+    .dis{
+        display: none;
+    }
+    .a4{
+        visibility: inherit;
+        display: block;
+    }
+    .cont{
+        height: 800px;
+    }
+    .section3{
+        height: 1200px;
+    }
+}
